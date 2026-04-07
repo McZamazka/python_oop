@@ -118,6 +118,10 @@ class Apartment:
 
 Сравнение двух квартир  
 
+![alt text](../images/lab01/image_1_02.png)
+
+
+
 Работа метода `__eq__`.
 
 ---
