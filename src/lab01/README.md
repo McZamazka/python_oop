@@ -106,6 +106,10 @@ class Apartment:
 Создание объекта  
 Вывод через `print`  
 
+![alt text](../images/lab01/image_1_01.png)
+
+
+
 Проверка работы конструктора и `__str__`.
 
 ---
