@@ -88,43 +88,43 @@ self._items = []
 
 ### Сценарий 2 — вывод и итерация
 
-![Сценарий 2](../../images/lab02/scenario2.png)
+![Сценарий 2](../../images/lab02/image_2_02.png)
 
 ---
 
 ### Сценарий 3 — поиск
 
-![Сценарий 3](../../images/lab02/scenario3.png)
+![Сценарий 3](../../images/lab02/image_2_03.png)
 
 ---
 
 ### Сценарий 4 — проверка ограничений
 
-![Сценарий 4](../../images/lab02/scenario4.png)
+![Сценарий 4](../../images/lab02/image_2_04.png)
 
 ---
 
 ### Сценарий 5 — индексация
 
-![Сценарий 5](../../images/lab02/scenario5.png)
+![Сценарий 5](../../images/lab02/image_2_05.png)
 
 ---
 
 ### Сценарий 6 — сортировка
 
-![Сценарий 6](../../images/lab02/scenario6.png)
+![Сценарий 6](../../images/lab02/image_2_06.png)
 
 ---
 
 ### Сценарий 7 — фильтрация
 
-![Сценарий 7](../../images/lab02/scenario7.png)
+![Сценарий 7](../../images/lab02/image_2_07.png)
 
 ---
 
 ### Сценарий 8 — удаление
 
-![Сценарий 8](../../images/lab02/scenario8.png)
+![Сценарий 8](../../images/lab02/image_2_08.png)
 
 ---
 
