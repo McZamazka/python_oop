@@ -94,13 +94,17 @@ isinstance(obj, Printable)
 
 ### Сценарий 2 — полиморфизм
 
-![Сценарий 2](../../images/lab04/scenario2.png)
+
+![alt text](../../images/lab04/image_4_02.png)
+
 
 ---
 
 ### Сценарий 3 — работа коллекции и проверка isinstance()
 
-![Сценарий 3](../../images/lab04/scenario3.png)
+
+![alt text](../../images/lab04/image_4_03.png)
+
 
 ---
 
