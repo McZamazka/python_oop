@@ -86,7 +86,7 @@ isinstance(obj, Printable)
 
 ### Сценарий 1 — создание объектов и вызов интерфейсных методов
 
-![Сценарий 1](/Users/zamazka/Documents/GitHub/python_oop/images/lab04/image_4_01.png)
+![Сценарий 1](images/lab04/image_4_01.png)
 
 ---
 
