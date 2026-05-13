@@ -87,9 +87,7 @@ isinstance(obj, Printable)
 ### Сценарий 1 — создание объектов и вызов интерфейсных методов
 
 
-
-![Сценарий 1](images/lab04/image_4_01.png)
-
+![alt text](../../images/lab04/image_4_01.png)
 
 
 ---
