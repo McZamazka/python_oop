@@ -175,7 +175,9 @@ prices: list[float]
 - добавление объектов
 - ошибка при добавлении неправильного типа
 
-![Сценарий 1](../../images/lab06/image1.png)
+
+![alt text](../../images/lab06/image_6_01.png)
+
 
 ---
 
@@ -187,7 +189,9 @@ prices: list[float]
 - фильтрация коллекции
 - преобразование объектов через map()
 
-![Сценарий 2](../../images/lab06/image2.png)
+
+![alt text](../../images/lab06/image_6_02.png)
+
 
 ---
 
@@ -195,7 +199,9 @@ prices: list[float]
 
 Показана работа коллекции через Protocol `Displayable`.
 
-![Сценарий 3](../../images/lab06/image3.png)
+
+![alt text](../../images/lab06/image_6_03.png)
+
 
 ---
 
@@ -203,7 +209,9 @@ prices: list[float]
 
 Показана работа коллекции через Protocol `Scorable`.
 
-![Сценарий 4](../../images/lab06/image4.png)
+
+![alt text](../../images/lab06/image_6_04.png)
+
 
 ---
 
