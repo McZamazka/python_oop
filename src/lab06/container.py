@@ -64,3 +64,4 @@ class TypedCollection(Generic[T]):
 
     def __getitem__(self, index: int) -> T:
         return self._items[index]
+    

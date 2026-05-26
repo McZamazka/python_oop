@@ -1,0 +1,1 @@
+![asciinema](../../my-test.cast)

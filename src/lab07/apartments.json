@@ -1,0 +1,18 @@
+[
+    {
+        "title": "sadfsadfsda",
+        "area": 123.0,
+        "price": 234.0,
+        "address": "gjkhghjkghjk",
+        "rent_months": 4536,
+        "status": "archived"
+    },
+    {
+        "title": "mmm",
+        "area": 987656.0,
+        "price": 3546.0,
+        "address": "oop",
+        "rent_months": 654,
+        "status": "rented"
+    }
+]
