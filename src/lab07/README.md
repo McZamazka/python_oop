@@ -163,5 +163,4 @@ apartments.json
 
 
 
-
-[![asciinema](https://asciinema.org/a/0kfI8yXrcCnSUuOl.svg)](https://asciinema.org/a/0kfI8yXrcCnSUuOl)
+[![asciicast](https://asciinema.org/a/0kfI8yXrcCnSUuOl.svg)](https://asciinema.org/a/0kfI8yXrcCnSUuOl)
