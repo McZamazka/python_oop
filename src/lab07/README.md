@@ -160,3 +160,8 @@ apartments.json
 - сохранение и загрузка данных
 - аннотации типов
 - CLI-интерфейс
+
+
+
+
+[![asciinema](https://asciinema.org/a/0kfI8yXrcCnSUuOl.svg)](https://asciinema.org/a/0kfI8yXrcCnSUuOl)
