@@ -1,6 +1,5 @@
 from app import ApartmentApp
 from exceptions import ApartmentAppError
-from models import Apartment
 from storage import save_apartments
 
 
@@ -68,7 +67,7 @@ class ApartmentCLI:
         price = float(input("Цена в месяц: "))
         rent_months = int(input("Срок аренды в месяцах: "))
 
-        apartment = Apartment(
+        self._app.add_apartment(
             title=title,
             area=area,
             price=price,
@@ -76,7 +75,6 @@ class ApartmentCLI:
             rent_months=rent_months,
         )
 
-        self._app.add_apartment(apartment)
         print("Квартира добавлена.")
 
     def _show_all(self) -> None:
@@ -171,7 +169,7 @@ class ApartmentCLI:
         )
 
     @staticmethod
-    def _print_apartments(apartments: list[Apartment]) -> None:
+    def _print_apartments(apartments: list) -> None:
         if not apartments:
             print("Список пуст.")
             return

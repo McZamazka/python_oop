@@ -6,10 +6,26 @@ class ApartmentApp:
     def __init__(self, apartments: list[Apartment] | None = None) -> None:
         self._apartments: list[Apartment] = apartments or []
 
-    def add_apartment(self, apartment: Apartment) -> None:
-        """Добавляет квартиру в коллекцию."""
+    def add_apartment(
+        self,
+        title: str,
+        area: float,
+        price: float,
+        address: str,
+        rent_months: int,
+    ) -> None:
+        """Создаёт и добавляет квартиру в коллекцию."""
+        apartment = Apartment(
+            title=title,
+            area=area,
+            price=price,
+            address=address,
+            rent_months=rent_months,
+        )
+
         if apartment in self._apartments:
             raise DuplicateApartmentError("Такая квартира уже есть.")
+
         self._apartments.append(apartment)
 
     def get_all(self) -> list[Apartment]:
@@ -54,15 +70,24 @@ class ApartmentApp:
 
     def sort_by_title(self) -> list[Apartment]:
         """Сортирует квартиры по названию."""
-        return sorted(self._apartments, key=lambda apartment: apartment.title)
+        return sorted(
+            self._apartments,
+            key=lambda apartment: apartment.title,
+        )
 
     def sort_by_price(self) -> list[Apartment]:
         """Сортирует квартиры по цене."""
-        return sorted(self._apartments, key=lambda apartment: apartment.price)
+        return sorted(
+            self._apartments,
+            key=lambda apartment: apartment.price,
+        )
 
     def sort_by_area(self) -> list[Apartment]:
         """Сортирует квартиры по площади."""
-        return sorted(self._apartments, key=lambda apartment: apartment.area)
+        return sorted(
+            self._apartments,
+            key=lambda apartment: apartment.area,
+        )
 
     def rent_apartment(self, index: int) -> None:
         """Сдаёт квартиру по индексу."""
@@ -78,9 +103,11 @@ class ApartmentApp:
         """Удаляет квартиру по индексу."""
         if index < 0 or index >= len(self._apartments):
             raise ApartmentNotFoundError("Квартира не найдена.")
+
         return self._apartments.pop(index)
 
     def _get_by_index(self, index: int) -> Apartment:
         if index < 0 or index >= len(self._apartments):
             raise ApartmentNotFoundError("Квартира не найдена.")
+
         return self._apartments[index]
